@@ -9,11 +9,16 @@ function introSlides() {
   return ['intro/00-TITLE.md'];
 }
 
+function modulesSlides() {
+  return ['modules/module-5.md', 'modules/module-6.md', 'modules/module-7.md'];
+}
+
 function formation() {
   return [
     //
     ...schoolSlides(), //
     ...introSlides(), //
+    ...modulesSlides(), //
   ].map((slidePath) => {
     return { path: slidePath };
   });
