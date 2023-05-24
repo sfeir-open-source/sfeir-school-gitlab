@@ -1,12 +1,8 @@
 ##==##
 
-<!-- .slide: class="first-slide"  sfeir-level="1"  sfeir-techno="" -->
+<!-- .slide: class="transition"-->
 
 # Module 5 : Intégration, déploiement, livraison
-
-# SFEIR Institute
-
-![](./assets/images/p1_i47.png)
 
 Notes:
 Version 1
@@ -17,34 +13,25 @@ Version 1
 
 # Rappels autour du CI / CD
 
-![](./assets/images/p2_i56.png)
+![center](./assets/images/p2_i56.png)
 
 ##==##
 
-<!-- .slide:-->
+<!-- .slide: class="quote-slide"-->
 
 # Rappels autour du CI / CD
 
-Source : Practices of Continuous Integration
+<blockquote>
+<cite>
+Continuous Integration is a software development practice where members of a team integrate their work frequently, usually each person integrates at least daily - leading to multiple integrations per day. Each integration is verified by an automated build (including test) to detect integration errors as quickly as possible.
+</cite>
+</blockquote>
 
 ![](./assets/images/p3_i63.png)
 
-##==##
+[Source : Practices of Continuous Integration](https://www.martinfowler.com/articles/continuousIntegration.html)
 
-<!-- .slide:-->
-
-# Rappels autour du CI /CD
-
-Continuous Integration pourquoi ?
-Accélérer la boucle de feedback
-S'assurer de répondre aux exigences :
-Pas de bug connu
-Qualité du code
-Niveau de performance
-Niveau de sécurité
-Réduire le nombre d'erreurs humaines
-Aider les nouveaux venues à s'intégrer
-...
+<!-- .element: class="credits" -->
 
 ##==##
 
@@ -53,15 +40,10 @@ Aider les nouveaux venues à s'intégrer
 # Rappels autour du CI /CD
 
 Continuous Integration pourquoi ?
-Accélérer la boucle de feedback
-S'assurer de répondre aux exigences :
-Pas de bug connu
-Qualité du code
-Niveau de performance
-Niveau de sécurité
-Réduire le nombre d'erreurs humaines
-Aider les nouveaux venues à s'intégrer
-...
+
+- Accélérer la boucle de feedback
+
+![center](./assets/images/rappels-ci-cd-1.svg)
 
 ##==##
 
@@ -69,16 +51,11 @@ Aider les nouveaux venues à s'intégrer
 
 # Rappels autour du CI /CD
 
-Continuous Integration pourquoi ?
-Accélérer la boucle de feedback
-S'assurer de répondre aux exigences :
-Pas de bug connu
-Qualité du code
-Niveau de performance
-Niveau de sécurité
-Réduire le nombre d'erreurs humaines
-Aider les nouveaux venues à s'intégrer
-...
+- Accélérer la boucle de feedback
+- S'assurer de répondre aux exigences :
+  - Pas de bug connu
+
+![center](./assets/images/rappels-ci-cd-2.svg)
 
 ##==##
 
@@ -86,16 +63,12 @@ Aider les nouveaux venues à s'intégrer
 
 # Rappels autour du CI /CD
 
-Continuous Integration pourquoi ?
-Accélérer la boucle de feedback
-S'assurer de répondre aux exigences :
-Pas de bug connu
-Qualité du code
-Niveau de performance
-Niveau de sécurité
-Réduire le nombre d'erreurs humaines
-Aider les nouveaux venues à s'intégrer
-...
+- Accélérer la boucle de feedback
+- S'assurer de répondre aux exigences :
+  - Pas de bug connu
+  - Qualité du code
+
+![center](./assets/images/rappels-ci-cd-3.svg)
 
 ##==##
 
@@ -103,16 +76,13 @@ Aider les nouveaux venues à s'intégrer
 
 # Rappels autour du CI /CD
 
-Continuous Integration pourquoi ?
-Accélérer la boucle de feedback
-S'assurer de répondre aux exigences :
-Pas de bug connu
-Qualité du code
-Niveau de performance
-Niveau de sécurité
-Réduire le nombre d'erreurs humaines
-Aider les nouveaux venues à s'intégrer
-...
+- Accélérer la boucle de feedback
+- S'assurer de répondre aux exigences :
+  - Pas de bug connu
+  - Qualité du code
+  - Niveau de performance
+
+![center](./assets/images/rappels-ci-cd-4.svg)
 
 ##==##
 
@@ -120,16 +90,14 @@ Aider les nouveaux venues à s'intégrer
 
 # Rappels autour du CI /CD
 
-Continuous Integration pourquoi ?
-Accélérer la boucle de feedback
-S'assurer de répondre aux exigences :
-Pas de bug connu
-Qualité du code
-Niveau de performance
-Niveau de sécurité
-Réduire le nombre d'erreurs humaines
-Aider les nouveaux venues à s'intégrer
-...
+- Accélérer la boucle de feedback
+- S'assurer de répondre aux exigences :
+  - Pas de bug connu
+  - Qualité du code
+  - Niveau de performance
+  - Niveau de sécurité
+
+![center](./assets/images/rappels-ci-cd-5.svg)
 
 ##==##
 
@@ -137,36 +105,51 @@ Aider les nouveaux venues à s'intégrer
 
 # Rappels autour du CI /CD
 
-Continuous Integration pourquoi ?
-Accélérer la boucle de feedback
-S'assurer de répondre aux exigences :
-Pas de bug connu
-Qualité du code
-Niveau de performance
-Niveau de sécurité
-Réduire le nombre d'erreurs humaines
-Aider les nouveaux venues à s'intégrer
-...
+- Accélérer la boucle de feedback
+- S'assurer de répondre aux exigences :
+  - Pas de bug connu
+  - Qualité du code
+  - Niveau de performance
+  - Niveau de sécurité
+- Réduire le nombre d'erreurs humaines
+
+![center](./assets/images/rappels-ci-cd-6.svg)
 
 ##==##
 
 <!-- .slide:-->
+
+# Rappels autour du CI /CD
+
+- Accélérer la boucle de feedback
+- S'assurer de répondre aux exigences :
+  - Pas de bug connu
+  - Qualité du code
+  - Niveau de performance
+  - Niveau de sécurité
+- Réduire le nombre d'erreurs humaines
+- Aider les nouveaux venues à s'intégrer
+- ...
+
+![center](./assets/images/rappels-ci-cd-7.svg)
+
+##==##
+
+<!-- .slide: class="flex-row" -->
 
 # Dans nos projets
 
-![](./assets/images/p11_i168.png)
-
-![](./assets/images/p11_i169.png)
-
-![](./assets/images/p11_i170.png)
-
-![](./assets/images/p11_i171.png)
-
-![](./assets/images/p11_i172.png)
-
-![](./assets/images/p11_i173.png)
-
-![](./assets/images/p11_i174.png)
+<div class="flex-row">
+<img class="h-200" src="./assets/images/p11_i168.png">
+<img class="h-200" src="./assets/images/p11_i169.png">
+<img class="h-200" src="./assets/images/p11_i170.png">
+</div>
+<div class="flex-row">
+<img class="h-200" src="./assets/images/p11_i171.png">
+<img class="h-200" src="./assets/images/p11_i172.png">
+<img class="h-200" src="./assets/images/p11_i173.png">
+<img class="h-200" src="./assets/images/p11_i174.png">
+</div>
 
 ##==##
 
@@ -175,14 +158,10 @@ Aider les nouveaux venues à s'intégrer
 # Rappels autour du CI / CD
 
 Inventaire :
-Le code source dans un SCM
-Une solution d'intégration continue:
-Valider chaque contribution
-Générer les artefacts
-Une solution de stockage pour les artefacts
-Cloud ou solution de provisioning d'infrastructure
 
-![](./assets/images/p12_i181.png)
+- Le code source dans un SCM
+
+![](./assets/images/ci-cd-recap-1.svg)
 
 ##==##
 
@@ -191,16 +170,11 @@ Cloud ou solution de provisioning d'infrastructure
 # Rappels autour du CI / CD
 
 Inventaire :
-Le code source dans un SCM
-Une solution d'intégration continue:
-Valider chaque contribution
-Générer les artefacts
-Une solution de stockage pour les artefacts
-Cloud ou solution de provisioning d'infrastructure
 
-![](./assets/images/p13_i188.png)
+- Le code source dans un SCM
+- Une solution d'intégration continue:
 
-![](./assets/images/p13_i189.png)
+![](./assets/images/ci-cd-recap-2.svg)
 
 ##==##
 
@@ -209,16 +183,12 @@ Cloud ou solution de provisioning d'infrastructure
 # Rappels autour du CI / CD
 
 Inventaire :
-Le code source dans un SCM
-Une solution d'intégration continue:
-Valider chaque contribution
-Générer les artefacts
-Une solution de stockage pour les artefacts
-Cloud ou solution de provisioning d'infrastructure
 
-![](./assets/images/p14_i197.png)
+- Le code source dans un SCM
+- Une solution d'intégration continue:
+  - Valider chaque contribution
 
-![](./assets/images/p14_i198.png)
+![](./assets/images/ci-cd-recap-3.svg)
 
 ##==##
 
@@ -227,16 +197,13 @@ Cloud ou solution de provisioning d'infrastructure
 # Rappels autour du CI / CD
 
 Inventaire :
-Le code source dans un SCM
-Une solution d'intégration continue:
-Valider chaque contribution
-Générer les artefacts
-Une solution de stockage pour les artefacts
-Cloud ou solution de provisioning d'infrastructure
 
-![](./assets/images/p15_i207.png)
+- Le code source dans un SCM
+- Une solution d'intégration continue:
+  - Valider chaque contribution
+  - Générer les artefacts
 
-![](./assets/images/p15_i208.png)
+![](./assets/images/ci-cd-recap-3.svg)
 
 ##==##
 
@@ -245,18 +212,14 @@ Cloud ou solution de provisioning d'infrastructure
 # Rappels autour du CI / CD
 
 Inventaire :
-Le code source dans un SCM
-Une solution d'intégration continue:
-Valider chaque contribution
-Générer les artefacts
-Une solution de stockage pour les artefacts
-Cloud ou solution de provisioning d'infrastructure
 
-![](./assets/images/p16_i217.png)
+- Le code source dans un SCM
+- Une solution d'intégration continue:
+  - Valider chaque contribution
+  - Générer les artefacts
+- Une solution de stockage pour les artefacts
 
-![](./assets/images/p16_i218.png)
-
-![](./assets/images/p16_i219.png)
+![](./assets/images/ci-cd-recap-4.svg)
 
 ##==##
 
@@ -265,20 +228,15 @@ Cloud ou solution de provisioning d'infrastructure
 # Rappels autour du CI / CD
 
 Inventaire :
-Le code source dans un SCM
-Une solution d'intégration continue:
-Valider chaque contribution
-Générer les artefacts
-Une solution de stockage pour les artefacts
-Cloud ou solution de provisioning d'infrastructure
 
-![](./assets/images/p17_i229.png)
+- Le code source dans un SCM
+- Une solution d'intégration continue:
+  - Valider chaque contribution
+  - Générer les artefacts
+- Une solution de stockage pour les artefacts
+- Cloud ou solution de provisioning d'infrastructure
 
-![](./assets/images/p17_i230.png)
-
-![](./assets/images/p17_i231.png)
-
-![](./assets/images/p17_i232.png)
+![](./assets/images/ci-cd-recap-5.svg)
 
 ##==##
 
@@ -288,7 +246,14 @@ Cloud ou solution de provisioning d'infrastructure
 
 Et GitLab ?
 
-![](./assets/images/p18_i243.png)
+- Le code source dans un SCM
+- Une solution d'intégration continue:
+  - Valider chaque contribution
+  - Générer les artefacts
+- Une solution de stockage pour les artefacts
+- Cloud ou solution de provisioning d'infrastructure
+
+![](./assets/images/ci-cd-recap-5.svg)
 
 ##==##
 
@@ -296,293 +261,286 @@ Et GitLab ?
 
 # Rappels autour du CI / CD
 
-Et GitLab ?
+Et GitLab ? OK
 
-OK
+- Le code source dans un SCM
+- Une solution d'intégration continue:
+  - Valider chaque contribution
+  - Générer les artefacts
+- Une solution de stockage pour les artefacts
+- Cloud ou solution de provisioning d'infrastructure
 
-![](./assets/images/p19_i250.png)
+![](./assets/images/ci-cd-recap-5.svg)
 
 ##==##
 
-<!-- .slide:-->
+<!-- .slide: class="exercice"-->
 
-# Gitlab CI / CD
+# Gitlab CI / CD - Lab 1
+
+## Lab
 
 Créer son premier pipeline
 
-# Lab 1 - Module 5
-
 ##==##
 
 <!-- .slide:-->
 
-Runner
+## Runner
 
-Executor
+### Executor
 
-![](./assets/images/p21_i262.png)
-
-![](./assets/images/p21_i264.png)
-
-![](./assets/images/p21_i266.png)
-
-![](./assets/images/p21_i271.png)
-
-![](./assets/images/p21_i272.png)
-
-![](./assets/images/p21_i273.png)
+![h-800 center](./assets/images/executor.svg)
 
 ##==##
 
-<!-- .slide:-->
+<!-- .slide: class="two-column" -->
 
 # Gitlab CI / CD : Runner
 
-Permet de lancer l'exécution d'un job
-Managed ou Self-managed (application go)
-Shared / Group / Specific
-Des tags pour choisir son runner
+- Permet de lancer l'exécution d'un job
 
-Runner
+##--##
 
-Executor
-
-![](./assets/images/p22_i285.png)
-
-![](./assets/images/p22_i287.png)
-
-![](./assets/images/p22_i289.png)
-
-![](./assets/images/p22_i290.png)
-
-![](./assets/images/p22_i291.png)
+![](./assets/images/executor-lab-1-1.svg)
 
 ##==##
 
-<!-- .slide:-->
+<!-- .slide: class="two-column" -->
 
 # Gitlab CI / CD : Runner
 
-Permet de lancer l'exécution d'un job
-Managed ou Self-managed (application go)
-Shared / Group / Specific
-Des tags pour choisir son runner
+- Permet de lancer l'exécution d'un job
+- Managed ou Self-managed (application go)
 
-Runner
+##--##
 
-![](./assets/images/p23_i304.png)
+![](./assets/images/executor-lab-1-2.svg)
 
 ##==##
 
-<!-- .slide:-->
+<!-- .slide: class="two-column" -->
 
 # Gitlab CI / CD : Runner
 
-Permet de lancer l'exécution d'un job
-Managed ou Self-managed (application go)
-Shared / Group / Specific
-Des tags pour choisir son runner
+- Permet de lancer l'exécution d'un job
+- Managed ou Self-managed (application go)
+- Shared / Group / Specific
 
-Runner
+##--##
 
-![](./assets/images/p24_i313.png)
+![](./assets/images/executor-lab-1-2.svg)
 
 ##==##
 
-<!-- .slide:-->
+<!-- .slide: class="two-column" -->
 
 # Gitlab CI / CD : Runner
 
-Permet de lancer l'exécution d'un job
-Managed ou Self-managed (application go)
-Shared / Group / Specific
-Des tags pour choisir son runner
+- Permet de lancer l'exécution d'un job
+- Managed ou Self-managed (application go)
+- Shared / Group / Specific
+- Des tags pour choisir son runner
 
-Doc : GitLab Runner | GitLab
+Doc : [GitLab Runner | GitLab](https://docs.gitlab.com/runner/)
 
-Runner
+##--##
 
-![](./assets/images/p25_i322.png)
+![](./assets/images/executor-lab-1-2.svg)
 
 ##==##
 
-<!-- .slide:-->
+<!-- .slide: class="two-column" -->
 
 # Gitlab CI / CD : Executor
 
-L'environnement d'exécution
-Différent types (ex : ssh, docker, docker machine, kubernetes ...)
+- L'environnement d'exécution
+- Différent types (ex : ssh, docker, docker machine, kubernetes ...)
+<!-- .element: class="list-fragment" -->
 
-Doc : Executors | GitLab
+Doc : [Executors | GitLab](https://docs.gitlab.com/runner/executors/)
 
-Runner
+<!-- .element: class="fragment" -->
 
-Executor
+##--##
 
-![](./assets/images/p26_i331.png)
-
-![](./assets/images/p26_i334.png)
-
-![](./assets/images/p26_i335.png)
+![](./assets/images/executor-lab-1-3.svg)
 
 ##==##
 
-<!-- .slide:-->
-
-# Gitlab CI / CD : Executor
-
-L'environnement d'exécution
-Différents types (ex : ssh, docker, docker machine, kubernetes ...)
-
-Doc : Executors | GitLab
-
-Runner
-
-Executor
-
-![](./assets/images/p27_i344.png)
-
-![](./assets/images/p27_i347.png)
-
-![](./assets/images/p27_i348.png)
-
-##==##
-
-<!-- .slide:-->
+<!-- .slide: class="two-column"-->
 
 # Gitlab CI /CD : managed shared runners
 
-Linux environment
-Docker Machine executor
-Autoscale GCP instances
-n1-standard-1 instances
-Image par défaut : Ruby
+- Linux environment
 
-doc : GitLab.com settings | GitLab
+doc : [GitLab.com settings | GitLab](https://docs.gitlab.com/ee/user/gitlab_com/index.html#shared-runners)
+
+##--##
 
 ![](./assets/images/p28_i356.png)
 
 ##==##
 
-<!-- .slide:-->
+<!-- .slide: class="two-column"-->
 
 # Gitlab CI /CD : managed shared runners
 
-Linux environment
-Docker Machine executor
-Autoscale GCP instances
-n1-standard-1 instances
-Image par défaut : Ruby
+- Linux environment
+- Docker Machine executor
 
-doc : GitLab.com settings | GitLab
+doc : [GitLab.com settings | GitLab](https://docs.gitlab.com/ee/user/gitlab_com/index.html#shared-runners)
+
+##--##
 
 ![](./assets/images/p29_i363.png)
 
 ##==##
 
-<!-- .slide:-->
+<!-- .slide: class="two-column"-->
 
 # Gitlab CI /CD : managed shared runners
 
-Linux environment
-Docker Machine executor
-Autoscale GCP instances
-n1-standard-1 instances
-Image par défaut : Ruby
+- Linux environment
+- Docker Machine executor
+- Autoscale GCP instances
 
-doc : GitLab.com settings | GitLab
+doc : [GitLab.com settings | GitLab](https://docs.gitlab.com/ee/user/gitlab_com/index.html#shared-runners)
+
+##--##
 
 ![](./assets/images/p30_i370.png)
 
 ##==##
 
-<!-- .slide:-->
+<!-- .slide: class="two-column"-->
 
 # Gitlab CI /CD : managed shared runners
 
-Linux environment
-Docker Machine executor
-Autoscale GCP instances
-n1-standard-1 instances
-Image par défaut : Ruby
+- Linux environment
+- Docker Machine executor
+- Autoscale GCP instances
+- [n1-standard-1](https://cloud.google.com/compute/docs/machine-types#n1_standard_machine_types) instances
 
-doc : GitLab.com settings | GitLab
+doc : [GitLab.com settings | GitLab](https://docs.gitlab.com/ee/user/gitlab_com/index.html#shared-runners)
+
+##--##
+
+![center h-150](./assets/images/p31_i377.png)
 
 1 vCPU
 
+<!-- .element: style="text-align:center;" -->
+
+![center h-150](./assets/images/p31_i378.png)
+
 3.75 Go
+
+<!-- .element: style="text-align:center;" -->
+
+![center h-150](./assets/images/p31_i379.png)
 
 25 Go
 
-![](./assets/images/p31_i377.png)
-
-![](./assets/images/p31_i378.png)
-
-![](./assets/images/p31_i379.png)
+<!-- .element: style="text-align:center;" -->
 
 ##==##
 
-<!-- .slide:-->
+<!-- .slide: class="two-column"-->
 
 # Gitlab CI /CD : managed shared runners
 
-Linux environment
-Docker Machine executor
-Autoscale GCP instances
-n1-standard-1 instances
-Image par défaut : Ruby
+- Linux environment
+- Docker Machine executor
+- Autoscale GCP instances
+- [n1-standard-1](https://cloud.google.com/compute/docs/machine-types#n1_standard_machine_types) instances
+- Image par défaut : Ruby
 
-doc : GitLab.com settings | GitLab
+doc : [GitLab.com settings | GitLab](https://docs.gitlab.com/ee/user/gitlab_com/index.html#shared-runners)
 
-![](./assets/images/p32_i389.png)
+##--##
+
+![h-500](./assets/images/p32_i389.png)
 
 ##==##
 
-<!-- .slide:-->
+<!-- .slide:  class="exercice"-->
 
 # Gitlab CI / CD
 
-Modification du fichier .gitlab-ci.yml
+## Lab
 
-Les executors
+- Modification du fichier .gitlab-ci.yml
 
-# Lab 2 - Module 5
-
-##==##
-
-<!-- .slide:-->
-
-# GitLab CI / CD : Jobs
-
-Exécutent des commandes sur un exécuteur
-Peuvent s'exécuter en parallèle
-statut du job = statut de la commande
-
-![](./assets/images/p34_i402.png)
+- Les executors
 
 ##==##
 
-<!-- .slide:-->
+<!-- .slide: class="two-column" -->
 
 # GitLab CI / CD : Jobs
 
-Exécutent des commandes sur un exécuteur
-Peuvent s'exécuter en parallèle
-statut du job = statut de la commande
+- Exécutent des commandes sur un exécuteur
 
-![](./assets/images/p35_i409.png)
+##--##
+
+![h-400](./assets/images/p34_i402.png)
 
 ##==##
 
-<!-- .slide:-->
+<!-- .slide: class="two-column" -->
 
 # GitLab CI / CD : Jobs
 
-Exécutent des commandes sur un exécuteur
-Peuvent s'exécuter en parallèle
-statut du job = statut de la commande
+- Exécutent des commandes sur un exécuteur
+- Peuvent s'exécuter en parallèle
 
-![](./assets/images/p36_i416.png)
+##--##
+
+![h-400](./assets/images/p35_i409.png)
+
+##==##
+
+<!-- .slide: -->
+
+# GitLab CI / CD : Jobs
+
+- Exécutent des commandes sur un exécuteur
+- Peuvent s'exécuter en parallèle
+- statut du job = statut de la commande
+
+![h-300](./assets/images/p36_i416.png)
+
+##==##
+
+<!-- .slide:  class="two-column" -->
+
+# Gitlab CI / CD : Stages
+
+- Permet de séquencer le build
+
+<br><br>
+![h-300](./assets/images/p37_i423.png)
+
+##--##
+
+![mt-380 h-300](./assets/images/p37_i424.png)
+
+##==##
+
+<!-- .slide: class="two-column" -->
+
+# Gitlab CI / CD : Stages
+
+- Permet de séquencer le build
+- Peut contenir plusieurs jobs
+
+<br><br>
+![h-300](./assets/images/p38_i432.png)
+
+##--##
+
+![mt-300 h-500](./assets/images/p38_i433.png)
 
 ##==##
 
@@ -590,39 +548,11 @@ statut du job = statut de la commande
 
 # Gitlab CI / CD : Stages
 
-Permet de séquencer le build
-Peut contenir plusieurs jobs
-Un stage en erreur stop le build
+- Permet de séquencer le build
+- Peut contenir plusieurs jobs
+- Un stage en erreur stop le build
 
-![](./assets/images/p37_i423.png)
-
-![](./assets/images/p37_i424.png)
-
-##==##
-
-<!-- .slide:-->
-
-# Gitlab CI / CD : Stages
-
-Permet de séquencer le build
-Peut contenir plusieurs jobs
-Un stage en erreur stop le build
-
-![](./assets/images/p38_i432.png)
-
-![](./assets/images/p38_i433.png)
-
-##==##
-
-<!-- .slide:-->
-
-# Gitlab CI / CD : Stages
-
-Permet de séquencer le build
-Peut contenir plusieurs jobs
-Un stage en erreur stop le build
-
-![](./assets/images/p39_i446.png)
+![h-300 center](./assets/images/p39_i446.png)
 
 ##==##
 
@@ -630,20 +560,55 @@ Un stage en erreur stop le build
 
 # Gitlab CI / CD : Job options
 
-Execution  
- image / script / stage
-tags
-environment / variables / secrets
-cache / artifacts
-Spécificités du flow d'exécution
-when
-retry
-timeout / interruptible  
- parallel
-Specificités workflow
-Rules / only / except
+- Execution
+  - image / script / stage
+  - tags
+  - environment / variables / secrets
+  - cache / artifacts
+  <!-- .element: class="list-fragment" -->
 
-Source : Keyword reference for the .gitlab-ci.yml file | GitLab
+Source : [Keyword reference for the .gitlab-ci.yml file | GitLab](https://docs.gitlab.com/ee/ci/yaml/README.html)
+
+##==##
+
+<!-- .slide: class="two-column"-->
+
+# Gitlab CI / CD : Job options
+
+- Execution
+  - image / script / stage
+  - tags
+  - environment / variables / secrets
+  - cache / artifacts
+- Spécificités du flow d'exécution
+  - when
+
+Source : [Keyword reference for the .gitlab-ci.yml file | GitLab](https://docs.gitlab.com/ee/ci/yaml/README.html)
+
+##--##
+
+![mt-700 h-200](./assets/images/p44_i477.png)
+
+##==##
+
+<!-- .slide: class="two-column"-->
+
+# Gitlab CI / CD : Job options
+
+- Execution
+  - image / script / stage
+  - tags
+  - environment / variables / secrets
+  - cache / artifacts
+- Spécificités du flow d'exécution
+  - when
+  - retry
+
+Source : [Keyword reference for the .gitlab-ci.yml file | GitLab](https://docs.gitlab.com/ee/ci/yaml/README.html)
+
+##--##
+
+![mt-700 h-200](./assets/images/p45_i484.png)
 
 ##==##
 
@@ -651,20 +616,40 @@ Source : Keyword reference for the .gitlab-ci.yml file | GitLab
 
 # Gitlab CI / CD : Job options
 
-Execution  
- image / script / stage
-tags
-environment / variables / secrets
-cache / artifacts
-Spécificités du flow d'exécution
-when
-retry
-timeout / interruptible  
- parallel
-Specificités workflow
-Rules / only / except
+- Execution
+  - image / script / stage
+  - tags
+  - environment / variables / secrets
+  - cache / artifacts
+- Spécificités du flow d'exécution
+  - when
+  - retry
+  - timeout / interruptible
 
-Source : Keyword reference for the .gitlab-ci.yml file | GitLab
+Source : [Keyword reference for the .gitlab-ci.yml file | GitLab](https://docs.gitlab.com/ee/ci/yaml/README.html)
+
+##==##
+
+<!-- .slide: class="two-column" -->
+
+# Gitlab CI / CD : Job options
+
+- Execution
+  - image / script / stage
+  - tags
+  - environment / variables / secrets
+  - cache / artifacts
+- Spécificités du flow d'exécution
+  - when
+  - retry
+  - timeout / interruptible
+  - parallel
+
+Source : [Keyword reference for the .gitlab-ci.yml file | GitLab](https://docs.gitlab.com/ee/ci/yaml/README.html)
+
+##--##
+
+![mt-700 h-200](./assets/images/p47_i497.png)
 
 ##==##
 
@@ -672,178 +657,34 @@ Source : Keyword reference for the .gitlab-ci.yml file | GitLab
 
 # Gitlab CI / CD : Job options
 
-Execution  
- image / script / stage
-tags
-environment / variables / secrets
-cache / artifacts
-Spécificités du flow d'exécution
-when
-retry
-timeout / interruptible  
- parallel
-Specificités workflow
-Rules / only / except
+- Execution
+  - image / script / stage
+  - tags
+  - environment / variables / secrets
+  - cache / artifacts
+- Spécificités du flow d'exécution
+  - when
+  - retry
+  - timeout / interruptible
+  - parallel
+- Specificités workflow
+  - Rules / only / except
 
-Source : Keyword reference for the .gitlab-ci.yml file | GitLab
-
-##==##
-
-<!-- .slide:-->
-
-# Gitlab CI / CD : Job options
-
-Execution  
- image / script / stage
-tags
-environment / variables / secrets
-cache / artifacts
-Spécificités du flow d'exécution
-when
-retry
-timeout / interruptible  
- parallel
-Specificités workflow
-Rules / only / except
-
-Source : Keyword reference for the .gitlab-ci.yml file | GitLab
+Source : [Keyword reference for the .gitlab-ci.yml file | GitLab](https://docs.gitlab.com/ee/ci/yaml/README.html)
 
 ##==##
 
-<!-- .slide:-->
-
-# Gitlab CI / CD : Job options
-
-Execution  
- image / script / stage
-tags
-environment / variables / secrets
-cache / artifacts
-Spécificités du flow d'exécution
-when
-retry
-timeout / interruptible  
- parallel
-Specificités workflow
-Rules / only / except
-
-Source : Keyword reference for the .gitlab-ci.yml file | GitLab
-
-![](./assets/images/p44_i477.png)
-
-##==##
-
-<!-- .slide:-->
-
-# Gitlab CI / CD : Job options
-
-Execution  
- image / script / stage
-tags
-environment / variables / secrets
-cache / artifacts
-Spécificités du flow d'exécution
-when
-retry
-timeout / interruptible  
- parallel
-Specificités workflow
-Rules / only / except
-
-Source : Keyword reference for the .gitlab-ci.yml file | GitLab
-
-![](./assets/images/p45_i484.png)
-
-##==##
-
-<!-- .slide:-->
-
-# Gitlab CI / CD : Job options
-
-Execution  
- image / script / stage
-tags
-environment / variables / secrets
-cache / artifacts
-Spécificités du flow d'exécution
-when
-retry
-timeout / interruptible  
- parallel
-Specificités workflow
-Rules / only / except
-
-Source : Keyword reference for the .gitlab-ci.yml file | GitLab
-
-##==##
-
-<!-- .slide:-->
-
-# Gitlab CI / CD : Job options
-
-Execution  
- image / script / stage
-tags
-environment / variables / secrets
-cache / artifacts
-Spécificités du flow d'exécution
-when
-retry
-timeout / interruptible  
- parallel
-Specificités workflow
-Rules / only / except
-
-Source : Keyword reference for the .gitlab-ci.yml file | GitLab
-
-![](./assets/images/p47_i497.png)
-
-##==##
-
-<!-- .slide:-->
-
-# Gitlab CI / CD : Job options
-
-Execution  
- image / script / stage
-tags
-environment / variables / secrets
-cache / artifacts
-Spécificités du flow d'exécution
-when
-retry
-timeout / interruptible  
- parallel
-Specificités workflow
-Rules / only / except
-
-Source : Keyword reference for the .gitlab-ci.yml file | GitLab
-
-##==##
-
-<!-- .slide:-->
+<!-- .slide: class="exercice"-->
 
 # Gitlab CI / CD
 
-Controller le flow d'execution
+## Lab
 
-Optimiser les performance de build
+- Controller le flow d'execution
 
-Implémenter le workflow de développement
+- Optimiser les performance de build
 
-# Lab 3 - Module 5
-
-##==##
-
-<!-- .slide:-->
-
-# Gitlab CI / CD : Workflows
-
-Permet de décider quand le pipeline est créé
-Permet de modifier les variables selon le déclencheur
-attention
-
-Doc: Keyword reference for the .gitlab-ci.yml file | GitLab
+- Implémenter le workflow de développement
 
 ##==##
 
@@ -851,13 +692,9 @@ Doc: Keyword reference for the .gitlab-ci.yml file | GitLab
 
 # Gitlab CI / CD : Workflows
 
-Permet de décider quand le pipeline est créé
-Permet de modifier les variables selon le déclencheur
-attention
+- Permet de décider quand le pipeline est créé
 
-Doc: Keyword reference for the .gitlab-ci.yml file | GitLab
-
-![](./assets/images/p51_i522.png)
+Doc: [Keyword reference for the .gitlab-ci.yml file | GitLab](https://docs.gitlab.com/ee/ci/yaml/README.html#workflow)
 
 ##==##
 
@@ -865,14 +702,85 @@ Doc: Keyword reference for the .gitlab-ci.yml file | GitLab
 
 # Gitlab CI / CD : Workflows
 
-Permet de décider quand le pipeline est créé
-Permet de modifier les variables selon le déclencheur
+- Permet de décider quand le pipeline est créé
+- Permet de modifier les variables selon le déclencheur
 
-Doc: Keyword reference for the .gitlab-ci.yml file | GitLab
+Doc: [Keyword reference for the .gitlab-ci.yml file | GitLab](https://docs.gitlab.com/ee/ci/yaml/README.html#workflow)
 
-Duplication de pipelines
+![h-300 center](./assets/images/p51_i522.png)
 
-![](./assets/images/p52_i530.png)
+##==##
+
+<!-- .slide:-->
+
+# Gitlab CI / CD : Workflows
+
+- Permet de décider quand le pipeline est créé
+- Permet de modifier les variables selon le déclencheur
+
+![sfeir-icons big](alert-triangle) Duplication de pipelines
+
+Doc: [Keyword reference for the .gitlab-ci.yml file | GitLab](https://docs.gitlab.com/ee/ci/yaml/README.html#workflow)
+
+##==##
+
+<!-- .slide: class="two-column"-->
+
+# GitLab CI / CD : auto devops
+
+- Utilisation de templates
+
+Doc : [Auto DevOps | GitLab](https://docs.gitlab.com/ee/topics/autodevops/)
+
+##--##
+
+![mt-700 h-300](./assets/images/p53_i537.png)
+
+##==##
+
+<!-- .slide: class="two-column"-->
+
+# GitLab CI / CD : auto devops
+
+- Utilisation de templates
+- Déploiement dans Kubernetes
+
+Doc : [Auto DevOps | GitLab](https://docs.gitlab.com/ee/topics/autodevops/)
+
+##--##
+
+![h-400 center](./assets/images/p54_i544.png)
+
+##==##
+
+<!-- .slide: -->
+
+# GitLab CI / CD : auto devops
+
+- Utilisation de templates
+- Déploiement dans Kubernetes
+- Kubernetes piloté par Gitlab
+
+Doc : [Auto DevOps | GitLab](https://docs.gitlab.com/ee/topics/autodevops/)
+
+![](./assets/images/kub-driven-by-gitlab.svg)
+
+##==##
+
+<!-- .slide: class="two-column"-->
+
+# GitLab CI / CD : auto devops
+
+- Utilisation de templates
+- Déploiement dans Kubernetes
+- Kubernetes piloté par Gitlab
+- Monitoring Automatique
+
+Doc : [Auto DevOps | GitLab](https://docs.gitlab.com/ee/topics/autodevops/)
+
+##--##
+
+![mt-600 h-400](./assets/images/p56_i560.png)
 
 ##==##
 
@@ -880,87 +788,21 @@ Duplication de pipelines
 
 # GitLab CI / CD : auto devops
 
-Utilisation de templates
-Déploiement dans Kubernetes
-Kubernetes piloté par Gitlab
-Monitoring Automatique
-1 namespace = 1 environment
+- Utilisation de templates
+- Déploiement dans Kubernetes
+- Kubernetes piloté par Gitlab
+- Monitoring Automatique
+- 1 namespace = 1 environment
 
-Doc : Auto DevOps | GitLab
-
-![](./assets/images/p53_i537.png)
+![h-500 center](./assets/images/p57_i567.png)
 
 ##==##
 
-<!-- .slide:-->
+<!-- .slide: class="transition"-->
 
-# GitLab CI / CD : auto devops
+# Demo
 
-Utilisation de templates
-Déploiement dans Kubernetes
-Kubernetes piloté par Gitlab
-Monitoring Automatique
-1 namespace = 1 environment
-
-Doc : Auto DevOps | GitLab
-
-![](./assets/images/p54_i544.png)
-
-##==##
-
-<!-- .slide:-->
-
-# GitLab CI / CD : auto devops
-
-Utilisation de templates
-Déploiement dans Kubernetes
-Kubernetes piloté par Gitlab
-Monitoring Automatique
-1 namespace = 1 environment
-
-Doc : Auto DevOps | GitLab
-
-![](./assets/images/p55_i551.png)
-
-![](./assets/images/p55_i552.png)
-
-##==##
-
-<!-- .slide:-->
-
-# GitLab CI / CD : auto devops
-
-Utilisation de templates
-Déploiement dans Kubernetes
-Kubernetes piloté par Gitlab
-Monitoring Automatique
-1 namespace = 1 environment
-
-Doc : Auto DevOps | GitLab
-
-![](./assets/images/p56_i560.png)
-
-##==##
-
-<!-- .slide:-->
-
-# GitLab CI / CD : auto devops
-
-Utilisation de templates
-Déploiement dans Kubernetes
-Kubernetes piloté par Gitlab
-Monitoring Automatique
-1 namespace = 1 environment
-
-Doc : Auto DevOps | GitLab
-
-![](./assets/images/p57_i567.png)
-
-##==##
-
-<!-- .slide:-->
-
-# AutoDevOps
+## AutoDevOps
 
 Notes:
 Link to AutoDevOps templates :
