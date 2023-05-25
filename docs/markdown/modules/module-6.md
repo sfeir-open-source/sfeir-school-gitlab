@@ -1,12 +1,6 @@
-##==##
-
-<!-- .slide: class="first-slide"  sfeir-level="1"  sfeir-techno="" -->
+<!-- .slide: class="transition" -->
 
 # Module 6 : Déploiements
-
-# SFEIR Institute
-
-![](./assets/images/p1_i92.png)
 
 Notes:
 Version 1
@@ -17,37 +11,7 @@ Version 1
 
 # Rappels Environments
 
-prod.example.com
-
-Front
-
-Api
-
-staging.example.com
-
-Front
-
-Api
-
-![](./assets/images/p2_i101.png)
-
-![](./assets/images/p2_i102.png)
-
-![](./assets/images/p2_i103.png)
-
-![](./assets/images/p2_i104.png)
-
-![](./assets/images/p2_i108.png)
-
-![](./assets/images/p2_i109.png)
-
-![](./assets/images/p2_i115.png)
-
-![](./assets/images/p2_i116.png)
-
-![](./assets/images/p2_i117.png)
-
-![](./assets/images/p2_i118.png)
+![center](./assets/images/recap-environments.svg)
 
 ##==##
 
@@ -55,14 +19,11 @@ Api
 
 # Déploiements : Les environnements
 
-Suivi de l'état de chaque environnement  
-Donne accès à un set de variables d'environnements
-Défini pour un job
-Deux types : statique ou dynamique
+- Suivi de l'état de chaque environnement
 
-Doc : Environments and deployments | GitLab
+Doc : [Environments and deployments | GitLab](https://docs.gitlab.com/ee/ci/environments/)
 
-![](./assets/images/p3_i132.png)
+![center h-300](./assets/images/p3_i132.png)
 
 ##==##
 
@@ -70,14 +31,12 @@ Doc : Environments and deployments | GitLab
 
 # Déploiements : Les environnements
 
-Suivi de l'état de chaque environnement  
-Donne accès à un set de variables d'environnements
-Défini pour un job
-Deux types : statique ou dynamique
+- Suivi de l'état de chaque environnement
+- Donne accès à un set de variables d'environnements
 
-Doc : Environments and deployments | GitLab
+Doc : [Environments and deployments | GitLab](https://docs.gitlab.com/ee/ci/environments/)
 
-![](./assets/images/p4_i139.png)
+![center h-300](./assets/images/p4_i139.png)
 
 ##==##
 
@@ -85,14 +44,13 @@ Doc : Environments and deployments | GitLab
 
 # Déploiements : Les environnements
 
-Suivi de l'état de chaque environnement  
-Donne accès à un set de variables d'environnements
-Défini pour un job
-Deux types : statique ou dynamique
+- Suivi de l'état de chaque environnement
+- Donne accès à un set de variables d'environnements
+- Défini pour un job
 
-Doc : Environments and deployments | GitLab
+Doc : [Environments and deployments | GitLab](https://docs.gitlab.com/ee/ci/environments/)
 
-![](./assets/images/p5_i146.png)
+![center h-300](./assets/images/p5_i146.png)
 
 ##==##
 
@@ -100,34 +58,17 @@ Doc : Environments and deployments | GitLab
 
 # Déploiements : Les environnements
 
-Suivi de l'état de chaque environnement  
-Donne accès à un set de variables d'environnements
-Défini pour un job
-Deux types : statique ou dynamique
+- Suivi de l'état de chaque environnement
+- Donne accès à un set de variables d'environnements
+- Défini pour un job
+- Deux types : statique ou dynamique
 
-Doc : Environments and deployments | GitLab
+Doc : [Environments and deployments | GitLab](https://docs.gitlab.com/ee/ci/environments/)
 
-![](./assets/images/p6_i153.png)
-
-![](./assets/images/p6_i154.png)
-
-##==##
-
-<!-- .slide:-->
-
-# Déploiements : Review Apps
-
-Avantages:
-Permet de compléter toutes les phases du pipeline avant de merger
-Réduit la complexité du workflow
-Isolation
-Répétabilité
-
-Inconvénients:
-Être en capacité provisionner un environnement à la demande
-Peut devenir coûteux en terme d'infrastructure
-
-Doc : Review Apps | GitLab
+<div class="flex-row">
+<img class="h-300" src="./assets/images/p6_i153.png">
+<img class="h-300" src="./assets/images/p6_i154.png">
+</div>
 
 ##==##
 
@@ -136,18 +77,29 @@ Doc : Review Apps | GitLab
 # Déploiements : Review Apps
 
 Avantages:
-Permet de compléter toutes les phases du pipeline avant de merger
-Réduit la complexité du workflow
-Isolation
-Répétabilité
 
-Inconvénients:
-Être en capacité provisionner un environnement à la demande
-Peut devenir coûteux en terme d'infrastructure
+- Permet de compléter toutes les phases du pipeline avant de merger
 
-Doc : Review Apps | GitLab
+Doc : [Review Apps | GitLab](https://docs.gitlab.com/ee/ci/review_apps/index.html)
 
-![](./assets/images/p8_i175.png)
+![center](./assets/images/rappels-ci-cd-1.svg)
+
+##==##
+
+<!-- .slide: class="two-column"-->
+
+# Déploiements : Review Apps
+
+Avantages:
+
+- Permet de compléter toutes les phases du pipeline avant de merger
+- Réduit la complexité du workflow
+
+Doc : [Review Apps | GitLab](https://docs.gitlab.com/ee/ci/review_apps/index.html)
+
+##--##
+
+![center w-400](./assets/images/p8_i175.png)
 
 ##==##
 
@@ -156,18 +108,14 @@ Doc : Review Apps | GitLab
 # Déploiements : Review Apps
 
 Avantages:
-Permet de compléter toutes les phases du pipeline avant de merger
-Réduit la complexité du workflow
-Isolation
-Répétabilité
 
-Inconvénients:
-Être en capacité provisionner un environnement à la demande
-Peut devenir coûteux en terme d'infrastructure
+- Permet de compléter toutes les phases du pipeline avant de merger
+- Réduit la complexité du workflow
+- Isolation
 
-Doc : Review Apps | GitLab
+![center h-400](./assets/images/p9_i182.png)
 
-![](./assets/images/p9_i182.png)
+Doc : [Review Apps | GitLab](https://docs.gitlab.com/ee/ci/review_apps/index.html)
 
 ##==##
 
@@ -176,84 +124,71 @@ Doc : Review Apps | GitLab
 # Déploiements : Review Apps
 
 Avantages:
-Permet de compléter toutes les phases du pipeline avant de merger
-Réduit la complexité du workflow
-Isolation
-Répétabilité
 
-Inconvénients:
-Être en capacité provisionner un environnement à la demande
-Peut devenir coûteux en terme d'infrastructure
+- Permet de compléter toutes les phases du pipeline avant de merger
+- Réduit la complexité du workflow
+- Isolation
+- Répétabilité
 
-Doc : Review Apps | GitLab
-
-![](./assets/images/p10_i197.png)
+![center h-300](./assets/images/p10_i197.png)
+![center](./assets/images/rappels-ci-cd-1.svg)
 
 ##==##
 
-<!-- .slide:-->
+<!-- .slide: class="two-column"-->
 
 # Déploiements : Review Apps
 
 Avantages:
-Permet de compléter toutes les phases du pipeline avant de merger
-Réduit la complexité du workflow
-Isolation
-Répétabilité
+
+- Permet de compléter toutes les phases du pipeline avant de merger
+- Réduit la complexité du workflow
+- Isolation
+- Répétabilité
 
 Inconvénients:
-Être en capacité provisionner un environnement à la demande
-Peut devenir coûteux en terme d'infrastructure
 
-Doc : Review Apps | GitLab
+- Être en capacité provisionner un environnement à la demande
 
-test.com
+##--##
 
-Front
-
-Api
-
-![](./assets/images/p11_i205.png)
-
-![](./assets/images/p11_i206.png)
-
-![](./assets/images/p11_i207.png)
-
-![](./assets/images/p11_i208.png)
+![h-800 center](./assets/images/deploiement-review-app.svg)
 
 ##==##
 
-<!-- .slide:-->
+<!-- .slide: class="two-column"-->
 
 # Déploiements : Review Apps
 
 Avantages:
-Permet de compléter toutes les phases du pipeline avant de merger
-Réduit la complexité du workflow
-Isolation
-Répétabilité
+
+- Permet de compléter toutes les phases du pipeline avant de merger
+- Réduit la complexité du workflow
+- Isolation
+- Répétabilité
 
 Inconvénients:
-Être en capacité provisionner un environnement à la demande
-Peut devenir coûteux en terme d'infrastructure
 
-Doc : Review Apps | GitLab
+- Être en capacité provisionner un environnement à la demande
+- Peut devenir coûteux en terme d'infrastructure
 
-![](./assets/images/p12_i221.png)
+##--##
+
+<br><br>
+
+![center](./assets/images/p12_i221.png)
 
 ##==##
 
-<!-- .slide:-->
+<!-- .slide: class="exercice"-->
 
-# Environments &
+# Environments & Review Apps
 
-Review Apps
+## Lab
 
-Créer des environnements GitLab
+- Créer des environnements GitLab
 
-Mettre en place une review app
-
-# Lab 1 - Module 6
+- Mettre en place une review app
 
 ##==##
 
@@ -261,21 +196,9 @@ Mettre en place une review app
 
 # Communiquer : Tags
 
-Référence à un commit
-Documente l'historique
+- Référence à un commit
 
-![](./assets/images/p14_i234.png)
-
-##==##
-
-<!-- .slide:-->
-
-# Communiquer : Tags
-
-Référence à un commit
-Documente l'historique
-
-![](./assets/images/p15_i241.png)
+![center h-700](./assets/images/p14_i234.png)
 
 ##==##
 
@@ -283,24 +206,10 @@ Documente l'historique
 
 # Communiquer : Tags
 
-Référence à un commit
-Documente l'historique
+- Référence à un commit
+- Documente l'historique
 
-![](./assets/images/p16_i248.png)
-
-##==##
-
-<!-- .slide:-->
-
-# Communiquer : Releases
-
-Metadata autour d'un tag
-Archive le code et les assets
-Evidence collection
-Release note
-Lien avec les milestones
-
-![](./assets/images/p17_i255.png)
+![center h-700](./assets/images/p16_i248.png)
 
 ##==##
 
@@ -308,13 +217,9 @@ Lien avec les milestones
 
 # Communiquer : Releases
 
-Metadata autour d'un tag
-Archive le code et les assets
-Evidence collection
-Release note
-Lien avec les milestones
+- Metadata autour d'un tag
 
-![](./assets/images/p18_i262.png)
+![center h-600](./assets/images/p17_i255.png)
 
 ##==##
 
@@ -322,13 +227,39 @@ Lien avec les milestones
 
 # Communiquer : Releases
 
-Metadata autour d'un tag
-Archive le code et les assets
-Evidence collection
-Release note
-Lien avec les milestones
+- Metadata autour d'un tag
+- Archive le code et les assets
 
-![](./assets/images/p19_i269.png)
+![center h-600](./assets/images/p18_i262.png)
+
+##==##
+
+<!-- .slide: class="two-column"-->
+
+# Communiquer : Releases
+
+- Metadata autour d'un tag
+- Archive le code et les assets
+- Evidence collection
+
+##--##
+
+![center h-800](./assets/images/p19_i269.png)
+
+##==##
+
+<!-- .slide: class="two-column"-->
+
+# Communiquer : Releases
+
+- Metadata autour d'un tag
+- Archive le code et les assets
+- Evidence collection
+- Release note
+
+##--##
+
+![center h-800](./assets/images/p20_i276.png)
 
 ##==##
 
@@ -336,52 +267,25 @@ Lien avec les milestones
 
 # Communiquer : Releases
 
-Metadata autour d'un tag
-Archive le code et les assets
-Evidence collection
-Release note
-Lien avec les milestones
+- Metadata autour d'un tag
+- Archive le code et les assets
+- Evidence collection
+- Release note
+- Lien avec les milestones
 
-![](./assets/images/p20_i276.png)
-
-##==##
-
-<!-- .slide:-->
-
-# Communiquer : Releases
-
-Metadata autour d'un tag
-Archive le code et les assets
-Evidence collection
-Release note
-Lien avec les milestones
-
-![](./assets/images/p21_i283.png)
+![center h-300](./assets/images/p21_i283.png)
 
 ##==##
 
-<!-- .slide:-->
+<!-- .slide: class="exercice"-->
 
 # Release
 
-Créer une release
+## Lab
 
-Recevoir des notifications
+- Créer une release
 
-# Lab 2 - Module 6
-
-##==##
-
-<!-- .slide:-->
-
-# Analytics
-
-CI /CD
-Repository
-Value Stream
-Insight (Ultimate)
-
-![](./assets/images/p23_i296.png)
+- Recevoir des notifications
 
 ##==##
 
@@ -389,12 +293,9 @@ Insight (Ultimate)
 
 # Analytics
 
-CI /CD
-Repository
-Value Stream
-Insight (Ultimate)
+- CI /CD
 
-![](./assets/images/p24_i303.png)
+![center h-700](./assets/images/p23_i296.png)
 
 ##==##
 
@@ -402,12 +303,10 @@ Insight (Ultimate)
 
 # Analytics
 
-CI /CD
-Repository
-Value Stream
-Insight (Ultimate)
+- CI /CD
+- Repository
 
-![](./assets/images/p25_i310.png)
+![center h-600](./assets/images/p24_i303.png)
 
 ##==##
 
@@ -415,9 +314,21 @@ Insight (Ultimate)
 
 # Analytics
 
-CI /CD
-Repository
-Value Stream
-Insight (Ultimate)
+- CI /CD
+- Repository
+- Value Stream
 
-![](./assets/images/p26_i317.png)
+![center h-300](./assets/images/p25_i310.png)
+
+##==##
+
+<!-- .slide:-->
+
+# Analytics
+
+![float-right](./assets/images/p26_i317.png)
+
+- CI /CD
+- Repository
+- Value Stream
+- Insight (Ultimate)
