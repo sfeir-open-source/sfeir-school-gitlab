@@ -1,6 +1,6 @@
 <!-- .slide: class="transition" -->
 
-# Module 6 : Déploiements
+# Module 2 : Déploiements
 
 Notes:
 Version 1

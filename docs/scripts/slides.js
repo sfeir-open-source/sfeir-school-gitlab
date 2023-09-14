@@ -2,7 +2,7 @@ import { SfeirThemeInitializer } from '../web_modules/sfeir-school-theme/sfeir-s
 
 // One method per module
 function schoolSlides() {
-  return ['00-school/00-TITLE.md', '00-school/speaker-jef.md'];
+  return ['00-school/00-TITLE.md', '00-school/speaker-bm.md'];
 }
 
 function introSlides() {
@@ -10,7 +10,7 @@ function introSlides() {
 }
 
 function modulesSlides() {
-  return ['modules/module-5.md', 'modules/module-6.md', 'modules/module-7.md'];
+  return ['modules/module-1.md', 'modules/module-2.md', 'modules/module-3.md'];
 }
 
 function formation() {

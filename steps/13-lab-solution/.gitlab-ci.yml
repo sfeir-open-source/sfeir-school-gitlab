@@ -1,0 +1,29 @@
+---
+build:
+ stage: build
+ script:
+   - ./mvnw package
+checkstyle:
+ stage: test
+ script:
+   - ./mvnw checkstyle:check
+unit-test:
+ stage: test
+ script:
+   - ./mvnw test
+
+docker-build:
+ image: docker:latest
+ stage: deploy
+ services:
+   - docker:dind
+ before_script:
+   - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+ script:
+   - docker build --pull -t "$CI_REGISTRY_IMAGE" .
+   - docker push "$CI_REGISTRY_IMAGE"
+ when: manual
+ only:
+   refs:
+     - main
+     - production

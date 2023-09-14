@@ -1,0 +1,13 @@
+
+default:
+ image: openjdk:11
+
+build:
+ script:
+   - ./mvnw package
+checkstyle:
+ script:
+   - ./mvnw checkstyle:check
+unit-test:
+ script:
+   - ./mvnw test

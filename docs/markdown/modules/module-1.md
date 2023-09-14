@@ -1,8 +1,6 @@
-##==##
-
 <!-- .slide: class="transition"-->
 
-# Module 5 : Intégration, déploiement, livraison
+# Module 1 : Intégration, déploiement, livraison
 
 Notes:
 Version 1
@@ -812,3 +810,13 @@ Link to Root template :
 https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Auto-DevOps.gitlab-ci.yml
 
 Show Deployment from master, do rollout and show environments.Kubernetes link limited. No performance cluster graphs (depreceated)Possibly replaced by Opstrace (based on prometheus)
+
+##==##
+
+<!-- .slide: class="exercice"-->
+
+# Gitlab CI / CD - Lab 4
+
+## Lab
+
+Les Dowstream Pipelines

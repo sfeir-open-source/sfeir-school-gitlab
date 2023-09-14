@@ -1,6 +1,6 @@
 <!-- .slide: class="transition" -->
 
-# Module 7 : Aller plus loin
+# Module 3 : Aller plus loin
 
 Notes:
 Version 1
