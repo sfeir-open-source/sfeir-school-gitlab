@@ -1,12 +1,14 @@
 ---
 # .gitlab-ci.yml **parent**
 stages:
-  - pre
+  - test
   - build
   - trigger
 
+variables:
+    PARENT_PROJECT: $CI_PROJECT_NAME
+
 test:
-  stage: pre
   script:
     - echo "Exécution des tests - OK"
 
@@ -14,13 +16,15 @@ build:
   stage: build
   script:
     - echo "Build action"
-    - echo "PROJECT_BUILD=${CI_COMMIT_MESSAGE}" > build.env
+    - echo "COMMIT_MESSAGE=${CI_COMMIT_MESSAGE}" > build.env
   artifacts:
     reports:
       dotenv: build.env
 
 trigger:
   stage: trigger
+  variables:
+    PARENT_COMMIT_MESSAGE: $COMMIT_MESSAGE
   trigger:
     strategy: depend
     project: <chemin_groupe>/<projet_enfant>
@@ -29,6 +33,7 @@ trigger:
 # .gitlab-ci.yml **enfant**
 stages:
   - .pre
+  - test
   - trigger
 
 job:
@@ -39,10 +44,7 @@ triggered:
   stage: trigger
   script:
     - echo "Exécution via un projet en amont"
-    - echo "Build du projet: ${PROJECT_BUILD}"
+    - echo "Build du projet - ${PARENT_PROJECT}"
+    - echo "Message du projet - ${PARENT_COMMIT_MESSAGE}"
   rules:
-    - if: $CI_PIPELINE_SOURCE != "pipeline"
-      when: never
-  needs:
-    - project: <chemin_groupe>/<projet_parent>
-      job: build
+    - if: $CI_PIPELINE_SOURCE == "pipeline"

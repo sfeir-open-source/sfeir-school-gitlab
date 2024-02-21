@@ -45,13 +45,17 @@ job:
 
 ![03-IMG](./assets/03-img.png)
 
-Vous pouvez aussi naviguer vers la section **Build > Pipelines** pour afficher une liste de tous les pipelines qui ont été exécutés sur le projet.
+Si ce n'est pas le cas, vérifier le paramétrage CI/CD du projet et l'activation des shared runners
 
 ![04-IMG](./assets/04-img.png)
+
+Vous pouvez aussi naviguer vers la section **Build > Pipelines** pour afficher une liste de tous les pipelines qui ont été exécutés sur le projet.
+
+![05-IMG](./assets/05-img.png)
 
 Si vous cliquez sur le pipeline que vous avez déclenché, une vue s'affiche. Elle nous montre les étapes du pipeline et leur état. Pour l'instant bien sûr, il est très simple, mais par la suite on pourra avoir plus de détails ici.
 Cliquez ensuite sur une des étapes pour avoir des détails sur l'exécution.
 
-![05-IMG](./assets/05-img.png)
+![06-IMG](./assets/06-img.png)
 
 Nous allons essayer de comprendre ensemble ce qu'il s'est passé
