@@ -8,8 +8,6 @@ Nous allons donc revenir sur la CI afin de construire une mutalisation des resso
 
 Nous allons simuler la liaison d'un projet **parent/upstream** avec un autre projet **enfant/downstream**.
 
-![01-IMG](./assets/01-img.png)
-
 ## Initialisation
 
 Créer un premier projet dit **enfant** avec la configuration CI suivante :
