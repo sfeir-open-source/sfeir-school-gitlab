@@ -16,6 +16,7 @@ stages:
   - build
   - test
   - upload
+  - deploy
 ```
 
 Maintenant créons un package et publions le
@@ -65,7 +66,7 @@ Cliquez sur Use template
 
 ![INFO](./assets/info.png) Dans le cas d'une page, le nom du projet est très important: c'est ce nom qui définit l'URL d'accès à cette page. Dans le cas d'une page au niveau du groupe. Il faudra le nommer : <nom_du_groupe>.gitlab.io
 
-Pour déployer la page, nous devrons exécuter un pipeline: celui-ci pourra être lancé par une modification sur la branche par défaut ou comme ceci :
+Pour déployer la page, nous devrons exécuter une pipeline: celle-ci pourra être lancé par une modification sur la branche par défaut ou comme ceci :
 
 ![03-IMG](./assets/03-img.png)
 

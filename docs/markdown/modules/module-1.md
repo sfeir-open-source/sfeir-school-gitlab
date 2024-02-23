@@ -561,7 +561,7 @@ doc : [GitLab.com settings | GitLab](https://docs.gitlab.com/ee/user/gitlab_com/
 - Execution
   - image / script / stage
   - tags
-  - environment / variables / secrets
+  - environment / variables
   - cache / artifacts
   <!-- .element: class="list-fragment" -->
 
