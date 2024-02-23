@@ -819,4 +819,4 @@ Show Deployment from master, do rollout and show environments.Kubernetes link 
 
 ## Lab
 
-Les Dowstream Pipelines
+Les Downstream Pipelines
