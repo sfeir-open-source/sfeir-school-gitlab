@@ -93,9 +93,7 @@ API ( APPLICATION PROGRAMMING INTERFACE )
   - Issue, milestones
   - Commit, tags, releases
   - Pipeline
-- Rest et GraphQL
-- GraphQL
-  - En construction
+- Rest et GraphQL https://docs.gitlab.com/ee/api/
 
 ##--##
 
@@ -105,20 +103,6 @@ API ( APPLICATION PROGRAMMING INTERFACE )
 
 ##==##
 
-<!-- .slide:-->
-
-# Les API GitLab
-
-- Permet de réaliser des opérations
-  - Issue, milestones
-  - Commit, tags, releases
-  - Pipeline
-- Rest et GraphQL
-- GraphQL
-  - En construction
-  - Versionless
-
-##==##
 
 <!-- .slide: class="two-column"-->
 

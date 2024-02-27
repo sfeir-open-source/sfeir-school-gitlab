@@ -1,10 +1,10 @@
 # Introduction à GitLab CI / CD
 
-## Interconnecté des projets
+## Interconnecter des projets
 
-Au sein de l'entreprise plusieurs équipes travaillent indépendamment l'une de l'autre sur différentes applications. Hors, celles-ci ont bien conscience d'avoir des similutudes techniques sur leur CI.
+Au sein de l'entreprise plusieurs équipes travaillent indépendamment l'une de l'autre sur différentes applications. Hors, celles-ci ont bien conscience d'avoir des similitudes techniques sur leur CI.
 
-Nous allons donc revenir sur la CI afin de construire une mutalisation des ressources.
+Nous allons donc revenir sur la CI afin de construire une mutualisation des ressources.
 
 Nous allons simuler la liaison d'un projet **parent/upstream** avec un autre projet **enfant/downstream**.
 

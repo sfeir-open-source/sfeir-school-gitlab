@@ -4,6 +4,8 @@
 
 Lors de la création de notre pipeline, nous avons été en mesure d'exécuter un script sur la base de code de notre projet. Ce script ne fait malheureusement pas grand chose. Nous allons y remédier. Comme notre projet est un projet java, nous allons avoir besoin d'un jdk pour construire le projet.  
 
+Il est possible d'éditer votre code au travers de l'interface Gitlab en utilisant, soit le WebIDE soit le pipeline editor. Pour l'édition rapide d'un pipeline, la solution la plus simple reste le Pipeline Editor. Celui-ci se trouve dans la section Build > Pipeline Editor de Gitlab.
+
 Nous allons donc vérifier si l'environnement d'exécution contient les outils adaptés :
 
 ```yml

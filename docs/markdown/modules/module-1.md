@@ -813,6 +813,22 @@ Show Deployment from master, do rollout and show environments.Kubernetes link 
 
 ##==##
 
+<!-- .slide:-->
+
+# GitLab CI / CD : Downstream Pipelines
+
+- Permettent de déclencher un "sous-pipeline" :
+  - au sein d'un même projet : *parent-child pipeline*
+  - d'un ou plusieur(s) autre(s) projet(s) : *multi-project pipeline* 
+
+Source : https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines.html
+<br><br>
+Exemple : *parent-child pipeline*
+<br>
+![h-300](./assets/images/p59_i569.png)
+
+##==##
+
 <!-- .slide: class="exercice"-->
 
 # Gitlab CI / CD - Lab 4
@@ -820,3 +836,5 @@ Show Deployment from master, do rollout and show environments.Kubernetes link 
 ## Lab
 
 Les Downstream Pipelines
+
+##==##
