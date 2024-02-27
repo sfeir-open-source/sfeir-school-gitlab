@@ -52,7 +52,7 @@ Vous pouvez aussi naviguer vers la section **Build > Pipelines** pour afficher u
 ![05-IMG](./assets/05-img.png)
 
 Si vous cliquez sur le pipeline que vous avez déclenché, une vue s'affiche. Elle nous montre les étapes du pipeline et leur état. Pour l'instant bien sûr, il est très simple, mais par la suite on pourra avoir plus de détails ici.
-Cliquez ensuite sur une des étapes pour avoir des détails sur l'exécution.
+Cliquez ensuite sur l'une des étapes pour avoir des détails sur l'exécution.
 
 ![06-IMG](./assets/06-img.png)
 
