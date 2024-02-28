@@ -371,6 +371,7 @@ Time tracking - Optionnel - Enregistrer un temps passé via quick action /spend 
 <br><br><br>
 
 ![h-700 center](./assets/images/p26_i241.png)
+
 ##==##
 
 <!-- .slide: class="exercice" -->
