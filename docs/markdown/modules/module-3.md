@@ -97,12 +97,6 @@ API ( APPLICATION PROGRAMMING INTERFACE )
 
 Doc : https://docs.gitlab.com/ee/api/
 
-##--##
-
-<br><br><br>
-
-![h-600 center](./assets/images/p7_i105.png)
-
 ##==##
 
 
