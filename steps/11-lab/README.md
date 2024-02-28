@@ -24,11 +24,11 @@ Pour nous assurer que la qualité reste au moins aussi bonne qu'actuellement, no
 
 Pour créer un pipeline il suffit de créer un fichier nommé .gitlab-ci.yml à la racine du repository.
 
-![01-IMG](./assets/07-img.png)
+![01-IMG](./assets/01-img.png)
 
 ![INFO](./assets/info.png) Saisissez directement son nom dans le champ texte : **.gitlab-ci.yml** (le premier ‘.’ est important. Ce n’est pas une erreur.)
 
-![02-IMG](./assets/08-img.png)
+![02-IMG](./assets/02-img.png)
 
  
 Voici le code de notre premier pipeline. (vous pouvez copier-coller)
