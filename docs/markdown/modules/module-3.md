@@ -383,3 +383,9 @@ Time tracking - Optionnel - Enregistrer un temps passé via quick action /spend 
 - Publier un package dans la registry Gitlab
 
 - Déployer un site statique Gitlab Pages
+
+##==##
+
+<!-- .slide: class="transition" -->
+
+# Merci
