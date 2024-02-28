@@ -93,7 +93,9 @@ API ( APPLICATION PROGRAMMING INTERFACE )
   - Issue, milestones
   - Commit, tags, releases
   - Pipeline
-- Rest et GraphQL https://docs.gitlab.com/ee/api/
+- Rest et GraphQL
+
+Doc : https://docs.gitlab.com/ee/api/
 
 ##--##
 
