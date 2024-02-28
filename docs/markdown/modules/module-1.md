@@ -821,7 +821,7 @@ Show Deployment from master, do rollout and show environments.Kubernetes link 
   - au sein d'un même projet : *parent-child pipeline*
   - d'un ou plusieur(s) autre(s) projet(s) : *multi-project pipeline* 
 
-Source : https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines.html
+Doc : https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines.html
 <br><br>
 Exemple : *parent-child pipeline*
 <br>
