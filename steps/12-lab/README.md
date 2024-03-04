@@ -4,6 +4,8 @@
 
 Lors de la création de notre pipeline, nous avons été en mesure d'exécuter un script sur la base de code de notre projet. Ce script ne fait malheureusement pas grand chose. Nous allons y remédier. Comme notre projet est un projet java, nous allons avoir besoin d'un jdk pour construire le projet.  
 
+Il est possible d'éditer votre code au travers de l'interface Gitlab en utilisant, soit le WebIDE soit le pipeline editor. Pour l'édition rapide d'un pipeline, la solution la plus simple reste le Pipeline Editor. Celui-ci se trouve dans la section Build > Pipeline Editor de Gitlab.
+
 Nous allons donc vérifier si l'environnement d'exécution contient les outils adaptés :
 
 ```yml
@@ -51,7 +53,7 @@ Nous en profitons également pour renommer l'étape de build (le nom du job). Po
 
 Comme nous souhaitons avancer dans notre pipeline de CI / CD, compiler l'application ne suffit pas. En effet, le pipeline est censé gérer tout le cycle de vie de l'application depuis le code source jusqu'à son déploiement en production.
 
-Nous allons ajouter d’autres étapes à notre pipeline. Elles l'une aura pour but vérification des bonnes pratiques de développement (avec checkstyle). La seconde se chargera de vérifier qu'on a pas introduit de bug en lançant notre suite de test
+Nous allons ajouter d’autres étapes à notre pipeline. L'une d'elles aura pour but la vérification des bonnes pratiques de développement (avec checkstyle). La seconde se chargera de vérifier que l'on a pas introduit de bug en lançant notre suite de test
 
 ```yml
 default:

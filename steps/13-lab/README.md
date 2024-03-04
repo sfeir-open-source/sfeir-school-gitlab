@@ -109,7 +109,7 @@ Poussez ces changements.
 
 Le pipeline se lance. Comme toute équipe DevOps qui se respecte, c'est le moment que vous choisissez pour aller prendre un café : en effet un build prend quelques minutes c'est le moment idéal.
 
-Revenue de votre pause, vous devriez voir quelque chose comme ceci :
+Revenu de votre pause, vous devriez voir quelque chose comme ceci :
 ![02-IMG](./assets/02-img.png)
 
 C'est à ce moment que notre CTO vient nous tapoter sur l'épaule. Il nous annonce qu'un problème est survenu en prod… En effet, notre version de développement vient d'être déployée par mégarde.

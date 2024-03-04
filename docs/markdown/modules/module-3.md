@@ -13,7 +13,6 @@ Version 1
 
 <div class="flex-row">
 <img src="./assets/images/p2_i55.png" class="h-300">
-<img src="./assets/images/p2_i56.png" class="h-300">
 </div>
 <div class="flex-row">
 <img src="./assets/images/p2_i57.png" class="h-300">
@@ -95,31 +94,11 @@ API ( APPLICATION PROGRAMMING INTERFACE )
   - Commit, tags, releases
   - Pipeline
 - Rest et GraphQL
-- GraphQL
-  - En construction
 
-##--##
-
-<br><br><br>
-
-![h-600 center](./assets/images/p7_i105.png)
+Doc : https://docs.gitlab.com/ee/api/
 
 ##==##
 
-<!-- .slide:-->
-
-# Les API GitLab
-
-- Permet de réaliser des opérations
-  - Issue, milestones
-  - Commit, tags, releases
-  - Pipeline
-- Rest et GraphQL
-- GraphQL
-  - En construction
-  - Versionless
-
-##==##
 
 <!-- .slide: class="two-column"-->
 
@@ -226,7 +205,7 @@ Le webhook emet un post et son body contient les infos de l'évent
 
 ##==##
 
-<!-- .slide: class="exercice-->
+<!-- .slide: class="exercice" -->
 
 # Webhooks
 
@@ -386,3 +365,21 @@ Time tracking - Optionnel - Enregistrer un temps passé via quick action /spend 
 <br><br><br>
 
 ![h-700 center](./assets/images/p26_i241.png)
+
+##==##
+
+<!-- .slide: class="exercice" -->
+
+# Gitlab Pages
+
+## Lab
+
+- Publier un package dans la registry Gitlab
+
+- Déployer un site statique Gitlab Pages
+
+##==##
+
+<!-- .slide: class="transition" -->
+
+# Merci

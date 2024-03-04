@@ -22,17 +22,15 @@ Pour nous assurer que la qualité reste au moins aussi bonne qu'actuellement, no
 
 ## Notre premier pipeline
 
-Pour créer un pipeline il suffit de créer un fichier nommé .gitlab-ci.yml à la racine du repository. Nous allons utiliser le WebIDE car il nous proposera des options très utiles pour la suite.
-Depuis le WebIDE Cliquez sur l'icône *New file*
+Pour créer un pipeline il suffit de créer un fichier nommé .gitlab-ci.yml à la racine du repository.
 
 ![01-IMG](./assets/01-img.png)
 
-Et créez le fichier **.gitlab-ci.yml** (le premier ‘.’ est important. Ce n’est pas une erreur.)
+![INFO](./assets/info.png) Saisissez directement son nom dans le champ texte : **.gitlab-ci.yml** (le premier ‘.’ est important. Ce n’est pas une erreur.)
 
 ![02-IMG](./assets/02-img.png)
 
-![INFO](./assets/info.png) Le WebIDE nous propose de créer ce fichier. Vous pouvez cliquer directement sur le nom de fichier souhaité ou saisir directement son nom dans le champ texte et cliquer sur **Create file**
-
+ 
 Voici le code de notre premier pipeline. (vous pouvez copier-coller)
 
 ```yml
@@ -54,8 +52,9 @@ Vous pouvez aussi naviguer vers la section **Build > Pipelines** pour afficher u
 ![05-IMG](./assets/05-img.png)
 
 Si vous cliquez sur le pipeline que vous avez déclenché, une vue s'affiche. Elle nous montre les étapes du pipeline et leur état. Pour l'instant bien sûr, il est très simple, mais par la suite on pourra avoir plus de détails ici.
-Cliquez ensuite sur une des étapes pour avoir des détails sur l'exécution.
+Cliquez ensuite sur l'une des étapes pour avoir des détails sur l'exécution.
 
 ![06-IMG](./assets/06-img.png)
 
-Nous allons essayer de comprendre ensemble ce qu'il s'est passé
+Nous allons essayer de comprendre ensemble ce qu'il s'est passé.
+
